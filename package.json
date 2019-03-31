@@ -1,0 +1,28 @@
+{
+  "name": "feverbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FeverBot package",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Jarzet",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "discord.js": "^11.4.2",
+    "fs": "0.0.1-security",
+    "json-query": "^2.2.2",
+    "moment": "^2.22.2",
+    "node-http-ping": "^0.3.1",
+    "node-json-db": "^0.11.0",
+    "pretty-ms": "^4.0.0",
+    "request": "^2.88.0",
+    "snekfetch": "^4.0.4"
+  }
+}
